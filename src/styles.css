@@ -1,0 +1,35 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}  
+
+.mat-sort-header-arrow{
+    color: white;
+}
+
+.mat-elevation-z8{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+
+

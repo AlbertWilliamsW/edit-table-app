@@ -1,0 +1,25 @@
+<h1>Update Details</h1>
+<form [formGroup]="dataForm">
+    <!-- <mat-form-field class="example-full-width">
+        <input matInput placeholder="ID" formControlName="id">
+    </mat-form-field>
+    <br> -->
+    <mat-form-field class="example-full-width">
+        <textarea cdkTextareaAutosize cdkAutosizeMinRows="3" matInput placeholder="TITLE"
+            formControlName="title"> </textarea>
+    </mat-form-field>
+    <br>
+    <mat-form-field class="example-full-width">
+        <input matInput placeholder="USER-ID" formControlName="userId">
+    </mat-form-field>
+    <br>
+    <mat-form-field class="example-full-width">
+        <textarea cdkTextareaAutosize cdkAutosizeMinRows="3" matInput placeholder="BODY" formControlName="body"></textarea>
+    </mat-form-field>
+    <br>
+    <div>
+        <button mat-raised-button type="submit" (click)="close()">Close</button>
+        <button mat-raised-button type="submit" (click)="save()" color="primary">Save</button>
+    </div>
+    
+</form>

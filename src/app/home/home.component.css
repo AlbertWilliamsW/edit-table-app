@@ -1,0 +1,17 @@
+.header div{
+    padding: 10px;
+    color: white;
+    /* background-color: rgb(116, 116, 196); */
+}
+
+.header div:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.header{
+    display: flex;
+    list-style-type: none;
+    background-color: rgb(73, 73, 182);
+}
